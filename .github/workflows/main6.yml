@@ -38,9 +38,9 @@ jobs:
             location: 'west europe'
             ports: '3000'
             
-            --azure-file-volume-account-name: nielstorage
-            --azure-file-volume-account-key: +PjUb6t5vxVMCN7V1qT307R3XE+LXV2cl+HLyw+5hsAG0ejObRAwIINgdtGaMqg3sHnP6ePZ0nqr+ASt47P7Pw==
-            --azure-file-volume-share-name: fileshareniels
+            --azure-file-volume-account-name: 'nielsstorage'
+            --azure-file-volume-account-key: '+PjUb6t5vxVMCN7V1qT307R3XE+LXV2cl+HLyw+5hsAG0ejObRAwIINgdtGaMqg3sHnP6ePZ0nqr+ASt47P7Pw=='
+            --azure-file-volume-share-name: 'fileshareniels'
             --azure-file-volume-mount-path: '/etc/todos'
             
             
